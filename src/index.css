@@ -92,6 +92,9 @@ a {
 }
 
 .header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: -0.5px;
@@ -101,6 +104,12 @@ a {
 
 .header-logo:hover {
   opacity: 0.75;
+}
+
+.header-logo-img {
+  height: 32px;
+  width: auto;
+  display: block;
 }
 
 .header-nav {

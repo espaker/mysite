@@ -56,6 +56,11 @@ export function Header({ t, locale, theme, onToggleTheme, onToggleLocale }: Head
             handleNavClick('#hero')
           }}
         >
+          <img
+            src={isDark ? './favDark.svg' : './favLight.svg'}
+            alt="EK logo"
+            className="header-logo-img"
+          />
           Espaker
         </a>
 

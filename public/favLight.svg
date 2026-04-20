@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-labelledby="title desc"
+   viewBox="0 0 800 400"
+   height="400"
+   width="800"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="favLight.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.40124912"
+     inkscape:cx="-183.17797"
+     inkscape:cy="695.32862"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <title
+     id="title1">Logo EK - Light Mode</title>
+  <desc
+     id="desc">Logo {EK} elegante com brackets maiores para tema light</desc>
+  <defs
+     id="defs3">
+    <linearGradient
+       y2="38.476145"
+       x2="441.39749"
+       y1="38.476145"
+       x1="100.75577"
+       id="lightGradient"
+       gradientTransform="matrix(2.1612095,0,0,0.99256975,-185.85337,-7.2457749)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#7e22ce"
+         offset="0%"
+         id="stop1" />
+      <stop
+         stop-color="#0891b2"
+         offset="100%"
+         id="stop2" />
+    </linearGradient>
+    <filter
+       height="1.1730899"
+       width="1.0777879"
+       y="-0.086544957"
+       x="-0.038893948"
+       id="softGlow">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="8"
+         id="feGaussianBlur2" />
+      <feMerge
+         id="feMerge3">
+        <feMergeNode
+           in="blur"
+           id="feMergeNode2" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode3" />
+      </feMerge>
+    </filter>
+  </defs>
+  <text
+     opacity="0.25"
+     filter="url(#softGlow)"
+     fill="#6b21a8"
+     text-anchor="middle"
+     font-weight="700"
+     font-size="225px"
+     font-family="'JetBrains Mono', 'Fira Code', monospace"
+     y="218"
+     x="400"
+     id="text3"
+     transform="matrix(1.4646335,0,0,1.4646335,-185.8534,-7.2455827)">{EK}</text>
+  <text
+     paint-order="stroke"
+     stroke-width="13.1817"
+     stroke="#1f2937"
+     fill="url(#lightGradient)"
+     text-anchor="middle"
+     font-weight="700"
+     font-size="329.542px"
+     font-family="'JetBrains Mono', 'Fira Code', monospace"
+     y="312.04434"
+     x="400"
+     id="text4"
+     style="fill:url(#lightGradient)">{EK}</text>
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Logo EK - Light Mode</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

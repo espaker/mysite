@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { Card, Tag, Typography } from 'antd'
-import { Code2, Server, Monitor, Database, Phone, Brain, Terminal, AppWindow, Wrench } from 'lucide-react'
+import { Code2, Server, Monitor, Database, Phone, Brain, Terminal, AppWindow, Wrench, Cpu } from 'lucide-react'
 import type { Translations } from '../hooks/useTranslation'
 
 const { Title } = Typography
@@ -17,6 +17,7 @@ type CategoryKey =
   | 'telecom'
   | 'ai'
   | 'devops'
+  | 'linux'
   | 'desktop'
   | 'tooling'
 
@@ -54,7 +55,12 @@ const SKILL_DATA: { key: CategoryKey; icon: React.ReactNode; items: string[] }[]
   {
     key: 'devops',
     icon: <Terminal size={22} />,
-    items: ['Docker', 'Nginx', 'Linux (RHEL/Rocky)', 'Shell Script', 'Vercel', 'GitHub Releases'],
+    items: ['Docker', 'Nginx', 'Shell Script', 'Vercel', 'GitHub Releases'],
+  },
+  {
+    key: 'linux',
+    icon: <Cpu size={22} />,
+    items: ['Fedora', 'Rocky Linux', 'RHEL', 'AlmaLinux', 'zsh', 'systemd', 'ssh', 'firewalld', 'SELinux', 'cron', 'rsync', 'tmux', 'journalctl'],
   },
   {
     key: 'desktop',

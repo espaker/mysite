@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { ConfigProvider, theme as antdTheme } from 'antd'
 import { useTheme } from './hooks/useTheme'
 import { useTranslation } from './hooks/useTranslation'
@@ -12,6 +13,16 @@ export default function App() {
   const { theme, toggle: toggleTheme } = useTheme()
   const { t, locale, toggleLocale } = useTranslation()
   const isDark = theme === 'dark'
+
+  useEffect(() => {
+    const links = document.querySelectorAll<HTMLLinkElement>('link[rel="icon"]')
+    links.forEach((link) => {
+      const isForDark = link.href.includes('favDark')
+      link.media = isForDark
+        ? isDark ? 'all' : 'not all'
+        : isDark ? 'not all' : 'all'
+    })
+  }, [isDark])
 
   return (
     <ConfigProvider

@@ -46,7 +46,7 @@ export function Footer({ t }: FooterProps) {
             <span>Palhoça - SC, BR</span>
           </span>
         </div>
-        <Text className="footer-copyright">{t.footer.copyright}</Text>
+        <Text className="footer-copyright">{t.footer.copyright} {new Date().getFullYear()}</Text>
       </div>
     </footer>
   )
